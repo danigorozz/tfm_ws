@@ -1,0 +1,23 @@
+running develop
+Removing /home/daniel/workspaces/tfm_ws/install/robot_description/lib/python3.8/site-packages/robot-description.egg-link (link to .)
+running egg_info
+writing ../../build/robot_description/robot_description.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_description/robot_description.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_description/robot_description.egg-info/entry_points.txt
+writing requirements to ../../build/robot_description/robot_description.egg-info/requires.txt
+writing top-level names to ../../build/robot_description/robot_description.egg-info/top_level.txt
+reading manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/daniel/workspaces/tfm_ws/install/robot_description/lib/python3.8/site-packages/robot_description
+copying /home/daniel/workspaces/tfm_ws/build/robot_description/build/lib/robot_description/__init__.py -> /home/daniel/workspaces/tfm_ws/install/robot_description/lib/python3.8/site-packages/robot_description
+byte-compiling /home/daniel/workspaces/tfm_ws/install/robot_description/lib/python3.8/site-packages/robot_description/__init__.py to __init__.cpython-38.pyc
+running install_data
+copying description/base/gazebo_control2.xacro -> /home/daniel/workspaces/tfm_ws/install/robot_description/share/robot_description/description/base
+running install_egg_info
+Copying ../../build/robot_description/robot_description.egg-info to /home/daniel/workspaces/tfm_ws/install/robot_description/lib/python3.8/site-packages/robot_description-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/daniel/workspaces/tfm_ws/build/robot_description/install.log'

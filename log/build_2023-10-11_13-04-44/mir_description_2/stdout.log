@@ -1,0 +1,58 @@
+running egg_info
+creating ../../build/mir_description_2/mir_description_2.egg-info
+writing ../../build/mir_description_2/mir_description_2.egg-info/PKG-INFO
+writing dependency_links to ../../build/mir_description_2/mir_description_2.egg-info/dependency_links.txt
+writing entry points to ../../build/mir_description_2/mir_description_2.egg-info/entry_points.txt
+writing requirements to ../../build/mir_description_2/mir_description_2.egg-info/requires.txt
+writing top-level names to ../../build/mir_description_2/mir_description_2.egg-info/top_level.txt
+writing manifest file '../../build/mir_description_2/mir_description_2.egg-info/SOURCES.txt'
+reading manifest file '../../build/mir_description_2/mir_description_2.egg-info/SOURCES.txt'
+writing manifest file '../../build/mir_description_2/mir_description_2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/daniel/workspaces/tfm_ws/build/mir_description_2/build
+creating /home/daniel/workspaces/tfm_ws/build/mir_description_2/build/lib
+creating /home/daniel/workspaces/tfm_ws/build/mir_description_2/build/lib/mir_description_2
+copying mir_description_2/__init__.py -> /home/daniel/workspaces/tfm_ws/build/mir_description_2/build/lib/mir_description_2
+running install
+running install_lib
+creating /home/daniel/workspaces/tfm_ws/install/mir_description_2/lib/python3.8/site-packages/mir_description_2
+copying /home/daniel/workspaces/tfm_ws/build/mir_description_2/build/lib/mir_description_2/__init__.py -> /home/daniel/workspaces/tfm_ws/install/mir_description_2/lib/python3.8/site-packages/mir_description_2
+byte-compiling /home/daniel/workspaces/tfm_ws/install/mir_description_2/lib/python3.8/site-packages/mir_description_2/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/daniel/workspaces/tfm_ws/install/mir_description_2/share/ament_index
+creating /home/daniel/workspaces/tfm_ws/install/mir_description_2/share/ament_index/resource_index
+creating /home/daniel/workspaces/tfm_ws/install/mir_description_2/share/ament_index/resource_index/packages
+copying resource/mir_description_2 -> /home/daniel/workspaces/tfm_ws/install/mir_description_2/share/ament_index/resource_index/packages
+copying package.xml -> /home/daniel/workspaces/tfm_ws/install/mir_description_2/share/mir_description_2
+creating /home/daniel/workspaces/tfm_ws/install/mir_description_2/share/mir_description_2/launch
+copying launch/upload_mir_urdf.launch -> /home/daniel/workspaces/tfm_ws/install/mir_description_2/share/mir_description_2/launch
+copying launch/mir_debug_urdf.launch -> /home/daniel/workspaces/tfm_ws/install/mir_description_2/share/mir_description_2/launch
+creating /home/daniel/workspaces/tfm_ws/install/mir_description_2/share/mir_description_2/config
+copying config/diffdrive_controller.yaml -> /home/daniel/workspaces/tfm_ws/install/mir_description_2/share/mir_description_2/config
+copying config/joint_state_controller.yaml -> /home/daniel/workspaces/tfm_ws/install/mir_description_2/share/mir_description_2/config
+creating /home/daniel/workspaces/tfm_ws/install/mir_description_2/share/mir_description_2/meshes
+creating /home/daniel/workspaces/tfm_ws/install/mir_description_2/share/mir_description_2/meshes/visual
+copying meshes/visual/caster_wheel_base.stl -> /home/daniel/workspaces/tfm_ws/install/mir_description_2/share/mir_description_2/meshes/visual
+copying meshes/visual/sick_lms-100.stl -> /home/daniel/workspaces/tfm_ws/install/mir_description_2/share/mir_description_2/meshes/visual
+copying meshes/visual/mir_100_base.stl -> /home/daniel/workspaces/tfm_ws/install/mir_description_2/share/mir_description_2/meshes/visual
+copying meshes/visual/wheel.stl -> /home/daniel/workspaces/tfm_ws/install/mir_description_2/share/mir_description_2/meshes/visual
+creating /home/daniel/workspaces/tfm_ws/install/mir_description_2/share/mir_description_2/meshes/collision
+copying meshes/collision/caster_wheel_base.stl -> /home/daniel/workspaces/tfm_ws/install/mir_description_2/share/mir_description_2/meshes/collision
+copying meshes/collision/mir_100_base.stl -> /home/daniel/workspaces/tfm_ws/install/mir_description_2/share/mir_description_2/meshes/collision
+creating /home/daniel/workspaces/tfm_ws/install/mir_description_2/share/mir_description_2/rviz
+copying rviz/mir_description.rviz -> /home/daniel/workspaces/tfm_ws/install/mir_description_2/share/mir_description_2/rviz
+creating /home/daniel/workspaces/tfm_ws/install/mir_description_2/share/mir_description_2/urdf
+copying urdf/mir.urdf.xacro -> /home/daniel/workspaces/tfm_ws/install/mir_description_2/share/mir_description_2/urdf
+creating /home/daniel/workspaces/tfm_ws/install/mir_description_2/share/mir_description_2/urdf/include
+copying urdf/include/common_properties.urdf.xacro -> /home/daniel/workspaces/tfm_ws/install/mir_description_2/share/mir_description_2/urdf/include
+copying urdf/include/imu.gazebo.urdf.xacro -> /home/daniel/workspaces/tfm_ws/install/mir_description_2/share/mir_description_2/urdf/include
+copying urdf/include/common.gazebo.xacro -> /home/daniel/workspaces/tfm_ws/install/mir_description_2/share/mir_description_2/urdf/include
+copying urdf/include/mir_100_v1.urdf.xacro -> /home/daniel/workspaces/tfm_ws/install/mir_description_2/share/mir_description_2/urdf/include
+copying urdf/include/mir_100.gazebo.xacro -> /home/daniel/workspaces/tfm_ws/install/mir_description_2/share/mir_description_2/urdf/include
+copying urdf/include/mir_100.transmission.xacro -> /home/daniel/workspaces/tfm_ws/install/mir_description_2/share/mir_description_2/urdf/include
+copying urdf/include/sick_s300.urdf.xacro -> /home/daniel/workspaces/tfm_ws/install/mir_description_2/share/mir_description_2/urdf/include
+running install_egg_info
+Copying ../../build/mir_description_2/mir_description_2.egg-info to /home/daniel/workspaces/tfm_ws/install/mir_description_2/lib/python3.8/site-packages/mir_description_2-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/daniel/workspaces/tfm_ws/build/mir_description_2/install.log'

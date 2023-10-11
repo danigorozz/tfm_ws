@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+
+    <xacro:include filename="macros.xacro"/>
+    <!-- <xacro:include filename="gazebo_control.xacro" /> -->
+
+    <link name="base_link">
+        
+    </link>
+
+    <!-- CHASSIS -->
+
+    <joint name="chassis_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="chassis"/>
+        <origin xyz="0 0 0"/>
+    </joint>
+
+    <link name="chassis">
+        <visual>
+            <origin xyz="0 0 0" rpy="1.5707963267949 0 3.14"/>
+            <geometry>
+                <mesh filename="file:///$(find robot_description)/meshes/base/robot_base.stl"/>
+            </geometry>
+            <material name="">
+                <color rgba="0.79216 0.81961 0.93333 1"/>
+            </material>
+        </visual>
+        <collision>
+            <origin xyz="0 0 0.05" rpy="1.5707963267949 0 3.14"/>
+            <geometry>
+                <box size="0.650 0.200 0.400"/>
+            </geometry>
+        </collision>
+        <xacro:inertial_box mass="47" x="0.650" y="0.200" z="0.400">
+            <origin xyz="0 0 0.05" rpy="0 0 0"/>
+        </xacro:inertial_box>
+    </link>
+
+    <!-- WHEELS -->
+    <!-- Fron left wheel -->
+    <joint name="front_left_wheel_joint" type="continuous">
+        <axis xyz="0 0 1"/>
+        <!-- <limit effort="1" velocity="1"/> -->
+        <parent link ="base_link"/>
+        <child link ="front_left_wheel"/>
+        <origin rpy ="${-pi/2} 0 0" xyz= "0.220 0.250 0"/>
+    </joint>
+
+    <link name="front_left_wheel">
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="file:///$(find robot_description)/meshes/base/wheel.stl" />
+            </geometry>
+        </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <cylinder radius="0.1" length="0.1"/>
+            </geometry>
+        </collision>
+        <xacro:inertial_cylinder mass="2" length="0.1" radius="0.1">
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </xacro:inertial_cylinder>
+    </link>
+
+  <!-- Front right wheel -->
+    <link name="front_right_wheel">
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="file:///$(find robot_description)/meshes/base/wheel.stl" />
+            </geometry>
+        </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <cylinder radius="0.1" length="0.1"/>
+            </geometry>
+        </collision>
+        <xacro:inertial_cylinder mass="2" length="0.1" radius="0.1">
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </xacro:inertial_cylinder>
+    </link>
+
+    <joint name="front_right_wheel_joint" type="continuous">
+        <axis xyz="0 0 -1"/>
+        <limit effort="1" velocity="1"/>
+        <parent link ="base_link"/>
+        <child link ="front_right_wheel"/>
+        <origin rpy ="${pi/2} 0 0" xyz= "0.220 -0.250 0"/>
+    </joint>
+
+  <!-- Rear left wheel -->
+    <link name="rear_left_wheel">
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="file:///$(find robot_description)/meshes/base/wheel.stl" />
+            </geometry>
+        </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <cylinder radius="0.1" length="0.1"/>
+            </geometry>
+        </collision>
+        <xacro:inertial_cylinder mass="2" length="0.1" radius="0.1">
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </xacro:inertial_cylinder>
+    </link>
+
+    <joint name="rear_left_wheel_joint" type="continuous">
+        <axis xyz="0 0 1"/>
+        <limit effort="1" velocity="1"/>
+        <parent link ="base_link"/>
+        <child link ="rear_left_wheel"/>
+        <origin rpy ="${-pi/2} 0 0" xyz= "-0.220 0.250 0"/>
+  </joint>
+
+  <!-- Rear right wheel -->
+    <link name="rear_right_wheel">
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="file:///$(find robot_description)/meshes/base/wheel.stl" />
+            </geometry>
+        </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <cylinder radius="0.1" length="0.1"/>
+            </geometry>
+        </collision>
+        <xacro:inertial_cylinder mass="2" length="0.1" radius="0.1">
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </xacro:inertial_cylinder>
+    </link>
+
+    <joint name="rear_right_wheel_joint" type="continuous">
+        <axis xyz="0 0 -1"/>
+        <limit effort="1" velocity="1"/>
+        <parent link ="base_link"/>
+        <child link ="rear_right_wheel"/>
+        <origin rpy ="${pi/2} 0 0" xyz= "-0.220 -0.250 0"/>
+    </joint>
+
+    <!-- TRANSMISSIONS -->
+    <!-- <xacro:base_transmission prefix="front_left"/>
+    <xacro:base_transmission prefix="front_right"/>
+    <xacro:base_transmission prefix="rear_left"/>
+    <xacro:base_transmission prefix="rear_right"/> -->
+
+    <!-- FRICTIONS -->
+    <!-- <xacro:wheel_friction prefix="front_left"/>
+    <xacro:wheel_friction prefix="front_right"/>
+    <xacro:wheel_friction prefix="rear_left"/>
+    <xacro:wheel_friction prefix="rear_right"/> -->
+
+</robot>

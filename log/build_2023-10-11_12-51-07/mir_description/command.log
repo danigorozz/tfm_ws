@@ -1,0 +1,2 @@
+Invoking command in '/home/daniel/workspaces/tfm_ws/build/mir_description': /usr/bin/cmake /home/daniel/workspaces/tfm_ws/src/mir_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daniel/workspaces/tfm_ws/install/mir_description
+Invoked command in '/home/daniel/workspaces/tfm_ws/build/mir_description' returned '1': /usr/bin/cmake /home/daniel/workspaces/tfm_ws/src/mir_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daniel/workspaces/tfm_ws/install/mir_description

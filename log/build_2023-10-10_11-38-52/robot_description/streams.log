@@ -1,0 +1,20 @@
+[2.383s] Invoking command in '/home/daniel/workspaces/tfm_ws/build/robot_description': PYTHONPATH=/home/daniel/workspaces/tfm_ws/build/robot_description/prefix_override:/home/daniel/workspaces/tfm_ws/install/robot_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/daniel/workspaces/tfm_ws/build/robot_description/build --no-deps install_data
+[2.613s] running develop
+[2.768s] running egg_info
+[2.768s] writing robot_description.egg-info/PKG-INFO
+[2.768s] writing dependency_links to robot_description.egg-info/dependency_links.txt
+[2.769s] writing entry points to robot_description.egg-info/entry_points.txt
+[2.769s] writing requirements to robot_description.egg-info/requires.txt
+[2.769s] writing top-level names to robot_description.egg-info/top_level.txt
+[2.885s] reading manifest file 'robot_description.egg-info/SOURCES.txt'
+[2.886s] writing manifest file 'robot_description.egg-info/SOURCES.txt'
+[2.918s] running build_ext
+[2.951s] Creating /home/daniel/workspaces/tfm_ws/install/robot_description/lib/python3.8/site-packages/robot-description.egg-link (link to .)
+[2.952s] 
+[2.952s] Installed /home/daniel/workspaces/tfm_ws/build/robot_description
+[2.952s] running install_data
+[2.952s] copying launch/launch_sim.launch.py -> /home/daniel/workspaces/tfm_ws/install/robot_description/share/robot_description/launch
+[2.953s] copying description/base/base.xacro -> /home/daniel/workspaces/tfm_ws/install/robot_description/share/robot_description/description/base
+[2.953s] copying description/base/base_essentials.xacro -> /home/daniel/workspaces/tfm_ws/install/robot_description/share/robot_description/description/base
+[2.969s] copying description/base/gazebo_essentials.xacro -> /home/daniel/workspaces/tfm_ws/install/robot_description/share/robot_description/description/base
+[3.016s] Invoked command in '/home/daniel/workspaces/tfm_ws/build/robot_description' returned '0': PYTHONPATH=/home/daniel/workspaces/tfm_ws/build/robot_description/prefix_override:/home/daniel/workspaces/tfm_ws/install/robot_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/daniel/workspaces/tfm_ws/build/robot_description/build --no-deps install_data

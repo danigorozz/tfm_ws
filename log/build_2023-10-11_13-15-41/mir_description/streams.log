@@ -1,0 +1,21 @@
+[1.845s] Invoking command in '/home/daniel/workspaces/tfm_ws/src/mir_description': PYTHONPATH=/home/daniel/workspaces/tfm_ws/build/mir_description/prefix_override:/home/daniel/workspaces/tfm_ws/install/mir_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mir_description build --build-base /home/daniel/workspaces/tfm_ws/build/mir_description/build install --record /home/daniel/workspaces/tfm_ws/build/mir_description/install.log --install-scripts $base/lib/mir_description --single-version-externally-managed
+[2.075s] running egg_info
+[2.076s] writing ../../build/mir_description/mir_description.egg-info/PKG-INFO
+[2.076s] writing dependency_links to ../../build/mir_description/mir_description.egg-info/dependency_links.txt
+[2.076s] writing entry points to ../../build/mir_description/mir_description.egg-info/entry_points.txt
+[2.077s] writing requirements to ../../build/mir_description/mir_description.egg-info/requires.txt
+[2.077s] writing top-level names to ../../build/mir_description/mir_description.egg-info/top_level.txt
+[2.113s] reading manifest file '../../build/mir_description/mir_description.egg-info/SOURCES.txt'
+[2.114s] writing manifest file '../../build/mir_description/mir_description.egg-info/SOURCES.txt'
+[2.114s] running build
+[2.114s] running build_py
+[2.115s] running install
+[2.116s] running install_lib
+[2.118s] running install_data
+[2.119s] copying urdf/include/mir_100_v1.urdf.xacro -> /home/daniel/workspaces/tfm_ws/install/mir_description/share/mir_description/urdf/include
+[2.119s] running install_egg_info
+[2.121s] removing '/home/daniel/workspaces/tfm_ws/install/mir_description/lib/python3.8/site-packages/mir_description-0.0.0-py3.8.egg-info' (and everything under it)
+[2.121s] Copying ../../build/mir_description/mir_description.egg-info to /home/daniel/workspaces/tfm_ws/install/mir_description/lib/python3.8/site-packages/mir_description-0.0.0-py3.8.egg-info
+[2.123s] running install_scripts
+[2.142s] writing list of installed files to '/home/daniel/workspaces/tfm_ws/build/mir_description/install.log'
+[2.167s] Invoked command in '/home/daniel/workspaces/tfm_ws/src/mir_description' returned '0': PYTHONPATH=/home/daniel/workspaces/tfm_ws/build/mir_description/prefix_override:/home/daniel/workspaces/tfm_ws/install/mir_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mir_description build --build-base /home/daniel/workspaces/tfm_ws/build/mir_description/build install --record /home/daniel/workspaces/tfm_ws/build/mir_description/install.log --install-scripts $base/lib/mir_description --single-version-externally-managed

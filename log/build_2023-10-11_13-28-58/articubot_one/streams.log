@@ -1,0 +1,35 @@
+[0.692s] Invoking command in '/home/daniel/workspaces/tfm_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel/workspaces/tfm_ws/install/mir_description:/home/daniel/workspaces/tfm_ws/install/mir_description_2:/home/daniel/workspaces/tfm_ws/install/robot_description:/opt/ros/foxy /usr/bin/cmake --build /home/daniel/workspaces/tfm_ws/build/articubot_one -- -j8 -l8
+[1.570s] Invoked command in '/home/daniel/workspaces/tfm_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel/workspaces/tfm_ws/install/mir_description:/home/daniel/workspaces/tfm_ws/install/mir_description_2:/home/daniel/workspaces/tfm_ws/install/robot_description:/opt/ros/foxy /usr/bin/cmake --build /home/daniel/workspaces/tfm_ws/build/articubot_one -- -j8 -l8
+[1.605s] Invoking command in '/home/daniel/workspaces/tfm_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel/workspaces/tfm_ws/install/mir_description:/home/daniel/workspaces/tfm_ws/install/mir_description_2:/home/daniel/workspaces/tfm_ws/install/robot_description:/opt/ros/foxy /usr/bin/cmake --install /home/daniel/workspaces/tfm_ws/build/articubot_one
+[1.614s] -- Install configuration: ""
+[1.614s] -- Up-to-date: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/config
+[1.615s] -- Up-to-date: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/config/empty.yaml
+[1.615s] -- Up-to-date: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/config/drive_bot.rviz
+[1.615s] -- Up-to-date: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/config/view_bot.rviz
+[1.615s] -- Up-to-date: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/description
+[1.615s] -- Up-to-date: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
+[1.615s] -- Up-to-date: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/description/inertial_macros.xacro
+[1.616s] -- Installing: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/description/gazebo_control.xacro
+[1.616s] -- Up-to-date: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/description/robot_core.xacro
+[1.616s] -- Up-to-date: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/launch
+[1.616s] -- Up-to-date: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py
+[1.616s] -- Up-to-date: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+[1.616s] -- Up-to-date: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/worlds
+[1.616s] -- Up-to-date: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/worlds/empty.world
+[1.617s] -- Up-to-date: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/worlds/obstacles.world
+[1.617s] -- Up-to-date: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[1.617s] -- Up-to-date: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[1.617s] -- Up-to-date: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[1.617s] -- Up-to-date: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[1.617s] -- Up-to-date: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/environment/path.sh
+[1.617s] -- Up-to-date: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/environment/path.dsv
+[1.618s] -- Up-to-date: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/local_setup.bash
+[1.618s] -- Up-to-date: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/local_setup.sh
+[1.618s] -- Up-to-date: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/local_setup.zsh
+[1.619s] -- Up-to-date: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/local_setup.dsv
+[1.619s] -- Installing: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/package.dsv
+[1.620s] -- Up-to-date: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[1.620s] -- Up-to-date: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[1.620s] -- Up-to-date: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[1.620s] -- Up-to-date: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/package.xml
+[1.620s] Invoked command in '/home/daniel/workspaces/tfm_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel/workspaces/tfm_ws/install/mir_description:/home/daniel/workspaces/tfm_ws/install/mir_description_2:/home/daniel/workspaces/tfm_ws/install/robot_description:/opt/ros/foxy /usr/bin/cmake --install /home/daniel/workspaces/tfm_ws/build/articubot_one

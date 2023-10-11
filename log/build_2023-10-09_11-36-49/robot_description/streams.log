@@ -1,0 +1,33 @@
+[2.385s] Invoking command in '/home/daniel/workspaces/tfm_ws/src/robot_description': PYTHONPATH=/home/daniel/workspaces/tfm_ws/build/robot_description/prefix_override:/home/daniel/workspaces/tfm_ws/install/robot_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_description build --build-base /home/daniel/workspaces/tfm_ws/build/robot_description/build install --record /home/daniel/workspaces/tfm_ws/build/robot_description/install.log --install-scripts $base/lib/robot_description --single-version-externally-managed
+[2.620s] running egg_info
+[2.621s] creating ../../build/robot_description/robot_description.egg-info
+[2.621s] writing ../../build/robot_description/robot_description.egg-info/PKG-INFO
+[2.621s] writing dependency_links to ../../build/robot_description/robot_description.egg-info/dependency_links.txt
+[2.622s] writing entry points to ../../build/robot_description/robot_description.egg-info/entry_points.txt
+[2.622s] writing requirements to ../../build/robot_description/robot_description.egg-info/requires.txt
+[2.622s] writing top-level names to ../../build/robot_description/robot_description.egg-info/top_level.txt
+[2.680s] writing manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'
+[2.742s] reading manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'
+[2.743s] writing manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'
+[2.743s] running build
+[2.743s] running build_py
+[2.743s] creating /home/daniel/workspaces/tfm_ws/build/robot_description/build
+[2.743s] creating /home/daniel/workspaces/tfm_ws/build/robot_description/build/lib
+[2.743s] creating /home/daniel/workspaces/tfm_ws/build/robot_description/build/lib/robot_description
+[2.744s] copying robot_description/__init__.py -> /home/daniel/workspaces/tfm_ws/build/robot_description/build/lib/robot_description
+[2.744s] running install
+[2.744s] running install_lib
+[2.745s] creating /home/daniel/workspaces/tfm_ws/install/robot_description/lib/python3.8/site-packages/robot_description
+[2.745s] copying /home/daniel/workspaces/tfm_ws/build/robot_description/build/lib/robot_description/__init__.py -> /home/daniel/workspaces/tfm_ws/install/robot_description/lib/python3.8/site-packages/robot_description
+[2.746s] byte-compiling /home/daniel/workspaces/tfm_ws/install/robot_description/lib/python3.8/site-packages/robot_description/__init__.py to __init__.cpython-38.pyc
+[2.747s] running install_data
+[2.747s] creating /home/daniel/workspaces/tfm_ws/install/robot_description/share/ament_index
+[2.748s] creating /home/daniel/workspaces/tfm_ws/install/robot_description/share/ament_index/resource_index
+[2.748s] creating /home/daniel/workspaces/tfm_ws/install/robot_description/share/ament_index/resource_index/packages
+[2.748s] copying resource/robot_description -> /home/daniel/workspaces/tfm_ws/install/robot_description/share/ament_index/resource_index/packages
+[2.748s] copying package.xml -> /home/daniel/workspaces/tfm_ws/install/robot_description/share/robot_description
+[2.748s] running install_egg_info
+[2.750s] Copying ../../build/robot_description/robot_description.egg-info to /home/daniel/workspaces/tfm_ws/install/robot_description/lib/python3.8/site-packages/robot_description-0.0.0-py3.8.egg-info
+[2.750s] running install_scripts
+[2.766s] writing list of installed files to '/home/daniel/workspaces/tfm_ws/build/robot_description/install.log'
+[2.785s] Invoked command in '/home/daniel/workspaces/tfm_ws/src/robot_description' returned '0': PYTHONPATH=/home/daniel/workspaces/tfm_ws/build/robot_description/prefix_override:/home/daniel/workspaces/tfm_ws/install/robot_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_description build --build-base /home/daniel/workspaces/tfm_ws/build/robot_description/build install --record /home/daniel/workspaces/tfm_ws/build/robot_description/install.log --install-scripts $base/lib/robot_description --single-version-externally-managed

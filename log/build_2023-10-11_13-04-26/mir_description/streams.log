@@ -1,0 +1,21 @@
+[0.696s] Invoking command in '/home/daniel/workspaces/tfm_ws/build/mir_description': /usr/bin/cmake /home/daniel/workspaces/tfm_ws/src/mir_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daniel/workspaces/tfm_ws/install/mir_description
+[1.582s] -- Configuring incomplete, errors occurred!
+[1.583s] See also "/home/daniel/workspaces/tfm_ws/build/mir_description/CMakeFiles/CMakeOutput.log".
+[1.584s] CMake Error at CMakeLists.txt:5 (find_package):
+[1.585s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.585s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.585s]   CMake did not find one.
+[1.587s] 
+[1.588s]   Could not find a package configuration file provided by "catkin" with any
+[1.589s]   of the following names:
+[1.589s] 
+[1.589s]     catkinConfig.cmake
+[1.591s]     catkin-config.cmake
+[1.592s] 
+[1.594s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.594s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.595s]   provides a separate development package or SDK, be sure it has been
+[1.595s]   installed.
+[1.596s] 
+[1.597s] 
+[1.601s] Invoked command in '/home/daniel/workspaces/tfm_ws/build/mir_description' returned '1': /usr/bin/cmake /home/daniel/workspaces/tfm_ws/src/mir_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daniel/workspaces/tfm_ws/install/mir_description

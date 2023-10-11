@@ -1,0 +1,28 @@
+[1.826s] Invoking command in '/home/daniel/workspaces/tfm_ws/src/mir_description': PYTHONPATH=/home/daniel/workspaces/tfm_ws/build/mir_description/prefix_override:/home/daniel/workspaces/tfm_ws/install/mir_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mir_description build --build-base /home/daniel/workspaces/tfm_ws/build/mir_description/build install --record /home/daniel/workspaces/tfm_ws/build/mir_description/install.log --install-scripts $base/lib/mir_description --single-version-externally-managed
+[2.052s] running egg_info
+[2.053s] creating ../../build/mir_description/mir_description.egg-info
+[2.053s] writing ../../build/mir_description/mir_description.egg-info/PKG-INFO
+[2.053s] writing dependency_links to ../../build/mir_description/mir_description.egg-info/dependency_links.txt
+[2.054s] writing entry points to ../../build/mir_description/mir_description.egg-info/entry_points.txt
+[2.054s] writing requirements to ../../build/mir_description/mir_description.egg-info/requires.txt
+[2.054s] writing top-level names to ../../build/mir_description/mir_description.egg-info/top_level.txt
+[2.055s] writing manifest file '../../build/mir_description/mir_description.egg-info/SOURCES.txt'
+[2.087s] reading manifest file '../../build/mir_description/mir_description.egg-info/SOURCES.txt'
+[2.088s] writing manifest file '../../build/mir_description/mir_description.egg-info/SOURCES.txt'
+[2.088s] running build
+[2.089s] running build_py
+[2.089s] creating /home/daniel/workspaces/tfm_ws/build/mir_description/build
+[2.089s] creating /home/daniel/workspaces/tfm_ws/build/mir_description/build/lib
+[2.089s] creating /home/daniel/workspaces/tfm_ws/build/mir_description/build/lib/mir_description
+[2.089s] copying mir_description/__init__.py -> /home/daniel/workspaces/tfm_ws/build/mir_description/build/lib/mir_description
+[2.089s] running install
+[2.090s] running install_lib
+[2.091s] creating /home/daniel/workspaces/tfm_ws/install/mir_description/lib/python3.8/site-packages/mir_description
+[2.091s] copying /home/daniel/workspaces/tfm_ws/build/mir_description/build/lib/mir_description/__init__.py -> /home/daniel/workspaces/tfm_ws/install/mir_description/lib/python3.8/site-packages/mir_description
+[2.091s] byte-compiling /home/daniel/workspaces/tfm_ws/install/mir_description/lib/python3.8/site-packages/mir_description/__init__.py to __init__.cpython-38.pyc
+[2.092s] running install_data
+[2.093s] creating /home/daniel/workspaces/tfm_ws/install/mir_description/share/ament_index
+[2.093s] creating /home/daniel/workspaces/tfm_ws/install/mir_description/share/ament_index/resource_index
+[2.093s] creating /home/daniel/workspaces/tfm_ws/install/mir_description/share/ament_index/resource_index/packages
+[2.093s] error: can't copy 'resource/mir_description': doesn't exist or not a regular file
+[2.112s] Invoked command in '/home/daniel/workspaces/tfm_ws/src/mir_description' returned '1': PYTHONPATH=/home/daniel/workspaces/tfm_ws/build/mir_description/prefix_override:/home/daniel/workspaces/tfm_ws/install/mir_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mir_description build --build-base /home/daniel/workspaces/tfm_ws/build/mir_description/build install --record /home/daniel/workspaces/tfm_ws/build/mir_description/install.log --install-scripts $base/lib/mir_description --single-version-externally-managed

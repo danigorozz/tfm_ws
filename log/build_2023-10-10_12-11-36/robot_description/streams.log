@@ -1,0 +1,19 @@
+[1.110s] Invoking command in '/home/daniel/workspaces/tfm_ws/build/robot_description': PYTHONPATH=/home/daniel/workspaces/tfm_ws/build/robot_description/prefix_override:/home/daniel/workspaces/tfm_ws/install/robot_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/daniel/workspaces/tfm_ws/build/robot_description/build --no-deps install_data
+[1.349s] running develop
+[1.501s] running egg_info
+[1.501s] writing robot_description.egg-info/PKG-INFO
+[1.501s] writing dependency_links to robot_description.egg-info/dependency_links.txt
+[1.501s] writing entry points to robot_description.egg-info/entry_points.txt
+[1.502s] writing requirements to robot_description.egg-info/requires.txt
+[1.502s] writing top-level names to robot_description.egg-info/top_level.txt
+[1.533s] reading manifest file 'robot_description.egg-info/SOURCES.txt'
+[1.534s] writing manifest file 'robot_description.egg-info/SOURCES.txt'
+[1.567s] running build_ext
+[1.567s] Creating /home/daniel/workspaces/tfm_ws/install/robot_description/lib/python3.8/site-packages/robot-description.egg-link (link to .)
+[1.568s] 
+[1.568s] Installed /home/daniel/workspaces/tfm_ws/build/robot_description
+[1.568s] running install_data
+[1.568s] copying launch/rsp.launch.py -> /home/daniel/workspaces/tfm_ws/install/robot_description/share/robot_description/launch
+[1.568s] copying description/base/core.xacro -> /home/daniel/workspaces/tfm_ws/install/robot_description/share/robot_description/description/base
+[1.569s] error: can't copy 'description/base/base.xacro': doesn't exist or not a regular file
+[1.593s] Invoked command in '/home/daniel/workspaces/tfm_ws/build/robot_description' returned '1': PYTHONPATH=/home/daniel/workspaces/tfm_ws/build/robot_description/prefix_override:/home/daniel/workspaces/tfm_ws/install/robot_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/daniel/workspaces/tfm_ws/build/robot_description/build --no-deps install_data

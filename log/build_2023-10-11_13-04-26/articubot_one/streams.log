@@ -1,0 +1,2 @@
+[0.884s] Invoking command in '/home/daniel/workspaces/tfm_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel/workspaces/tfm_ws/install/robot_description:/opt/ros/foxy /usr/bin/cmake --build /home/daniel/workspaces/tfm_ws/build/articubot_one -- -j8 -l8
+[1.791s] Invoked command in '/home/daniel/workspaces/tfm_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel/workspaces/tfm_ws/install/robot_description:/opt/ros/foxy /usr/bin/cmake --build /home/daniel/workspaces/tfm_ws/build/articubot_one -- -j8 -l8

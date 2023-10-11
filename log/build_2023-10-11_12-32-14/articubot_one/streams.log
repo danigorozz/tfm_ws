@@ -1,0 +1,63 @@
+[0.463s] Invoking command in '/home/daniel/workspaces/tfm_ws/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/daniel/workspaces/tfm_ws/src/articubot_one -DCMAKE_INSTALL_PREFIX=/home/daniel/workspaces/tfm_ws/install/articubot_one
+[3.014s] -- The C compiler identification is GNU 9.4.0
+[4.878s] -- The CXX compiler identification is GNU 9.4.0
+[5.012s] -- Check for working C compiler: /usr/bin/cc
+[5.279s] -- Check for working C compiler: /usr/bin/cc -- works
+[5.294s] -- Detecting C compiler ABI info
+[5.390s] -- Detecting C compiler ABI info - done
+[5.411s] -- Detecting C compile features
+[5.412s] -- Detecting C compile features - done
+[5.416s] -- Check for working CXX compiler: /usr/bin/c++
+[5.498s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[5.499s] -- Detecting CXX compiler ABI info
+[5.579s] -- Detecting CXX compiler ABI info - done
+[5.591s] -- Detecting CXX compile features
+[5.591s] -- Detecting CXX compile features - done
+[5.727s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[5.826s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[5.826s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.275s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[6.483s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.493s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.495s] -- Added test 'lint_cmake' to check CMake code style
+[6.496s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[6.499s] -- Added test 'xmllint' to check XML markup files
+[6.509s] -- Configuring done
+[6.513s] -- Generating done
+[6.514s] -- Build files have been written to: /home/daniel/workspaces/tfm_ws/build/articubot_one
+[6.520s] Invoked command in '/home/daniel/workspaces/tfm_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/daniel/workspaces/tfm_ws/src/articubot_one -DCMAKE_INSTALL_PREFIX=/home/daniel/workspaces/tfm_ws/install/articubot_one
+[6.525s] Invoking command in '/home/daniel/workspaces/tfm_ws/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/daniel/workspaces/tfm_ws/build/articubot_one -- -j8 -l8
+[6.564s] Invoked command in '/home/daniel/workspaces/tfm_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/daniel/workspaces/tfm_ws/build/articubot_one -- -j8 -l8
+[6.598s] Invoking command in '/home/daniel/workspaces/tfm_ws/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/daniel/workspaces/tfm_ws/build/articubot_one
+[6.606s] -- Install configuration: ""
+[6.606s] -- Installing: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/config
+[6.607s] -- Installing: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/config/empty.yaml
+[6.607s] -- Installing: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/config/drive_bot.rviz
+[6.607s] -- Installing: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/config/view_bot.rviz
+[6.607s] -- Installing: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/description
+[6.607s] -- Installing: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
+[6.607s] -- Installing: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/description/inertial_macros.xacro
+[6.607s] -- Installing: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/description/gazebo_control.xacro
+[6.607s] -- Installing: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/description/robot_core.xacro
+[6.608s] -- Installing: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/launch
+[6.608s] -- Installing: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py
+[6.608s] -- Installing: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+[6.608s] -- Installing: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/worlds
+[6.608s] -- Installing: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/worlds/empty.world
+[6.608s] -- Installing: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/worlds/obstacles.world
+[6.608s] -- Installing: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[6.608s] -- Installing: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[6.608s] -- Installing: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[6.609s] -- Installing: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[6.609s] -- Installing: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/environment/path.sh
+[6.609s] -- Installing: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/environment/path.dsv
+[6.609s] -- Installing: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/local_setup.bash
+[6.609s] -- Installing: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/local_setup.sh
+[6.609s] -- Installing: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/local_setup.zsh
+[6.609s] -- Installing: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/local_setup.dsv
+[6.610s] -- Installing: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/package.dsv
+[6.610s] -- Installing: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[6.610s] -- Installing: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[6.610s] -- Installing: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[6.610s] -- Installing: /home/daniel/workspaces/tfm_ws/install/articubot_one/share/articubot_one/package.xml
+[6.613s] Invoked command in '/home/daniel/workspaces/tfm_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/daniel/workspaces/tfm_ws/build/articubot_one

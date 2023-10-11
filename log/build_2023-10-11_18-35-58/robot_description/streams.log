@@ -1,0 +1,22 @@
+[3.045s] Invoking command in '/home/daniel/workspaces/tfm_ws/src/robot_description': PYTHONPATH=/home/daniel/workspaces/tfm_ws/build/robot_description/prefix_override:/home/daniel/workspaces/tfm_ws/install/robot_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_description build --build-base /home/daniel/workspaces/tfm_ws/build/robot_description/build install --record /home/daniel/workspaces/tfm_ws/build/robot_description/install.log --install-scripts $base/lib/robot_description --single-version-externally-managed
+[3.268s] running egg_info
+[3.269s] writing ../../build/robot_description/robot_description.egg-info/PKG-INFO
+[3.269s] writing dependency_links to ../../build/robot_description/robot_description.egg-info/dependency_links.txt
+[3.269s] writing entry points to ../../build/robot_description/robot_description.egg-info/entry_points.txt
+[3.269s] writing requirements to ../../build/robot_description/robot_description.egg-info/requires.txt
+[3.270s] writing top-level names to ../../build/robot_description/robot_description.egg-info/top_level.txt
+[3.424s] reading manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'
+[3.437s] writing manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'
+[3.437s] running build
+[3.438s] running build_py
+[3.438s] running install
+[3.439s] running install_lib
+[3.441s] running install_data
+[3.442s] copying description/base/core.xacro -> /home/daniel/workspaces/tfm_ws/install/robot_description/share/robot_description/description/base
+[3.443s] copying description/base/gazebo_control2.xacro -> /home/daniel/workspaces/tfm_ws/install/robot_description/share/robot_description/description/base
+[3.443s] running install_egg_info
+[3.445s] removing '/home/daniel/workspaces/tfm_ws/install/robot_description/lib/python3.8/site-packages/robot_description-0.0.0-py3.8.egg-info' (and everything under it)
+[3.446s] Copying ../../build/robot_description/robot_description.egg-info to /home/daniel/workspaces/tfm_ws/install/robot_description/lib/python3.8/site-packages/robot_description-0.0.0-py3.8.egg-info
+[3.465s] running install_scripts
+[3.484s] writing list of installed files to '/home/daniel/workspaces/tfm_ws/build/robot_description/install.log'
+[3.506s] Invoked command in '/home/daniel/workspaces/tfm_ws/src/robot_description' returned '0': PYTHONPATH=/home/daniel/workspaces/tfm_ws/build/robot_description/prefix_override:/home/daniel/workspaces/tfm_ws/install/robot_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_description build --build-base /home/daniel/workspaces/tfm_ws/build/robot_description/build install --record /home/daniel/workspaces/tfm_ws/build/robot_description/install.log --install-scripts $base/lib/robot_description --single-version-externally-managed

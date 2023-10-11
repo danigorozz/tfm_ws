@@ -1,0 +1,49 @@
+[1.811s] Invoking command in '/home/daniel/workspaces/tfm_ws/src/mir_description': PYTHONPATH=/home/daniel/workspaces/tfm_ws/build/mir_description/prefix_override:/home/daniel/workspaces/tfm_ws/install/mir_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mir_description build --build-base /home/daniel/workspaces/tfm_ws/build/mir_description/build install --record /home/daniel/workspaces/tfm_ws/build/mir_description/install.log --install-scripts $base/lib/mir_description --single-version-externally-managed
+[2.036s] running egg_info
+[2.036s] writing ../../build/mir_description/mir_description.egg-info/PKG-INFO
+[2.037s] writing dependency_links to ../../build/mir_description/mir_description.egg-info/dependency_links.txt
+[2.037s] writing entry points to ../../build/mir_description/mir_description.egg-info/entry_points.txt
+[2.037s] writing requirements to ../../build/mir_description/mir_description.egg-info/requires.txt
+[2.037s] writing top-level names to ../../build/mir_description/mir_description.egg-info/top_level.txt
+[2.071s] reading manifest file '../../build/mir_description/mir_description.egg-info/SOURCES.txt'
+[2.072s] writing manifest file '../../build/mir_description/mir_description.egg-info/SOURCES.txt'
+[2.072s] running build
+[2.073s] running build_py
+[2.073s] running install
+[2.073s] running install_lib
+[2.075s] running install_data
+[2.075s] copying resource/mir_description -> /home/daniel/workspaces/tfm_ws/install/mir_description/share/ament_index/resource_index/packages
+[2.076s] copying package.xml -> /home/daniel/workspaces/tfm_ws/install/mir_description/share/mir_description
+[2.076s] creating /home/daniel/workspaces/tfm_ws/install/mir_description/share/mir_description/launch
+[2.076s] copying launch/upload_mir_urdf.launch -> /home/daniel/workspaces/tfm_ws/install/mir_description/share/mir_description/launch
+[2.076s] copying launch/rsp.launch.py -> /home/daniel/workspaces/tfm_ws/install/mir_description/share/mir_description/launch
+[2.076s] copying launch/mir_debug_urdf.launch -> /home/daniel/workspaces/tfm_ws/install/mir_description/share/mir_description/launch
+[2.076s] creating /home/daniel/workspaces/tfm_ws/install/mir_description/share/mir_description/config
+[2.076s] copying config/diffdrive_controller.yaml -> /home/daniel/workspaces/tfm_ws/install/mir_description/share/mir_description/config
+[2.076s] copying config/joint_state_controller.yaml -> /home/daniel/workspaces/tfm_ws/install/mir_description/share/mir_description/config
+[2.076s] creating /home/daniel/workspaces/tfm_ws/install/mir_description/share/mir_description/meshes
+[2.077s] creating /home/daniel/workspaces/tfm_ws/install/mir_description/share/mir_description/meshes/visual
+[2.077s] copying meshes/visual/caster_wheel_base.stl -> /home/daniel/workspaces/tfm_ws/install/mir_description/share/mir_description/meshes/visual
+[2.077s] copying meshes/visual/sick_lms-100.stl -> /home/daniel/workspaces/tfm_ws/install/mir_description/share/mir_description/meshes/visual
+[2.078s] copying meshes/visual/mir_100_base.stl -> /home/daniel/workspaces/tfm_ws/install/mir_description/share/mir_description/meshes/visual
+[2.080s] copying meshes/visual/wheel.stl -> /home/daniel/workspaces/tfm_ws/install/mir_description/share/mir_description/meshes/visual
+[2.080s] creating /home/daniel/workspaces/tfm_ws/install/mir_description/share/mir_description/meshes/collision
+[2.080s] copying meshes/collision/caster_wheel_base.stl -> /home/daniel/workspaces/tfm_ws/install/mir_description/share/mir_description/meshes/collision
+[2.080s] copying meshes/collision/mir_100_base.stl -> /home/daniel/workspaces/tfm_ws/install/mir_description/share/mir_description/meshes/collision
+[2.080s] creating /home/daniel/workspaces/tfm_ws/install/mir_description/share/mir_description/rviz
+[2.081s] copying rviz/mir_description.rviz -> /home/daniel/workspaces/tfm_ws/install/mir_description/share/mir_description/rviz
+[2.081s] creating /home/daniel/workspaces/tfm_ws/install/mir_description/share/mir_description/urdf
+[2.081s] copying urdf/mir.urdf.xacro -> /home/daniel/workspaces/tfm_ws/install/mir_description/share/mir_description/urdf
+[2.081s] creating /home/daniel/workspaces/tfm_ws/install/mir_description/share/mir_description/urdf/include
+[2.081s] copying urdf/include/common_properties.urdf.xacro -> /home/daniel/workspaces/tfm_ws/install/mir_description/share/mir_description/urdf/include
+[2.081s] copying urdf/include/imu.gazebo.urdf.xacro -> /home/daniel/workspaces/tfm_ws/install/mir_description/share/mir_description/urdf/include
+[2.081s] copying urdf/include/common.gazebo.xacro -> /home/daniel/workspaces/tfm_ws/install/mir_description/share/mir_description/urdf/include
+[2.081s] copying urdf/include/mir_100_v1.urdf.xacro -> /home/daniel/workspaces/tfm_ws/install/mir_description/share/mir_description/urdf/include
+[2.082s] copying urdf/include/mir_100.gazebo.xacro -> /home/daniel/workspaces/tfm_ws/install/mir_description/share/mir_description/urdf/include
+[2.082s] copying urdf/include/mir_100.transmission.xacro -> /home/daniel/workspaces/tfm_ws/install/mir_description/share/mir_description/urdf/include
+[2.082s] copying urdf/include/sick_s300.urdf.xacro -> /home/daniel/workspaces/tfm_ws/install/mir_description/share/mir_description/urdf/include
+[2.082s] running install_egg_info
+[2.083s] Copying ../../build/mir_description/mir_description.egg-info to /home/daniel/workspaces/tfm_ws/install/mir_description/lib/python3.8/site-packages/mir_description-0.0.0-py3.8.egg-info
+[2.084s] running install_scripts
+[2.101s] writing list of installed files to '/home/daniel/workspaces/tfm_ws/build/mir_description/install.log'
+[2.122s] Invoked command in '/home/daniel/workspaces/tfm_ws/src/mir_description' returned '0': PYTHONPATH=/home/daniel/workspaces/tfm_ws/build/mir_description/prefix_override:/home/daniel/workspaces/tfm_ws/install/mir_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mir_description build --build-base /home/daniel/workspaces/tfm_ws/build/mir_description/build install --record /home/daniel/workspaces/tfm_ws/build/mir_description/install.log --install-scripts $base/lib/mir_description --single-version-externally-managed
