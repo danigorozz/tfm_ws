@@ -1,0 +1,17 @@
+[2.104s] Invoking command in '/home/daniel/workspaces/tfm_ws/build/robot_motion': PYTHONPATH=/home/daniel/workspaces/tfm_ws/build/robot_motion/prefix_override:/home/daniel/workspaces/tfm_ws/install/robot_motion/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/daniel/workspaces/tfm_ws/build/robot_motion/build --no-deps install_data
+[2.350s] running develop
+[2.516s] running egg_info
+[2.516s] writing robot_motion.egg-info/PKG-INFO
+[2.516s] writing dependency_links to robot_motion.egg-info/dependency_links.txt
+[2.517s] writing entry points to robot_motion.egg-info/entry_points.txt
+[2.517s] writing requirements to robot_motion.egg-info/requires.txt
+[2.517s] writing top-level names to robot_motion.egg-info/top_level.txt
+[2.616s] reading manifest file 'robot_motion.egg-info/SOURCES.txt'
+[2.617s] writing manifest file 'robot_motion.egg-info/SOURCES.txt'
+[2.651s] running build_ext
+[2.667s] Creating /home/daniel/workspaces/tfm_ws/install/robot_motion/lib/python3.8/site-packages/robot-motion.egg-link (link to .)
+[2.668s] Installing move_to_random_points script to /home/daniel/workspaces/tfm_ws/install/robot_motion/lib/robot_motion
+[2.668s] 
+[2.668s] Installed /home/daniel/workspaces/tfm_ws/build/robot_motion
+[2.668s] running install_data
+[2.692s] Invoked command in '/home/daniel/workspaces/tfm_ws/build/robot_motion' returned '0': PYTHONPATH=/home/daniel/workspaces/tfm_ws/build/robot_motion/prefix_override:/home/daniel/workspaces/tfm_ws/install/robot_motion/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/daniel/workspaces/tfm_ws/build/robot_motion/build --no-deps install_data

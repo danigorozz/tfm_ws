@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating robot_motion.egg-info
+writing robot_motion.egg-info/PKG-INFO
+writing dependency_links to robot_motion.egg-info/dependency_links.txt
+writing entry points to robot_motion.egg-info/entry_points.txt
+writing requirements to robot_motion.egg-info/requires.txt
+writing top-level names to robot_motion.egg-info/top_level.txt
+writing manifest file 'robot_motion.egg-info/SOURCES.txt'
+reading manifest file 'robot_motion.egg-info/SOURCES.txt'
+writing manifest file 'robot_motion.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/daniel/workspaces/tfm_ws/install/robot_motion/lib/python3.8/site-packages/site.py
+Creating /home/daniel/workspaces/tfm_ws/install/robot_motion/lib/python3.8/site-packages/robot-motion.egg-link (link to .)
+
+Installed /home/daniel/workspaces/tfm_ws/build/robot_motion
+running install_data
+creating /home/daniel/workspaces/tfm_ws/install/robot_motion/share/ament_index
+creating /home/daniel/workspaces/tfm_ws/install/robot_motion/share/ament_index/resource_index
+creating /home/daniel/workspaces/tfm_ws/install/robot_motion/share/ament_index/resource_index/packages
+copying resource/robot_motion -> /home/daniel/workspaces/tfm_ws/install/robot_motion/share/ament_index/resource_index/packages
+copying package.xml -> /home/daniel/workspaces/tfm_ws/install/robot_motion/share/robot_motion

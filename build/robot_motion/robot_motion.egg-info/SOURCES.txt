@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+resource/robot_motion
+robot_motion/__init__.py
+robot_motion/move_to_random_points.py
+robot_motion.egg-info/PKG-INFO
+robot_motion.egg-info/SOURCES.txt
+robot_motion.egg-info/dependency_links.txt
+robot_motion.egg-info/entry_points.txt
+robot_motion.egg-info/requires.txt
+robot_motion.egg-info/top_level.txt
+robot_motion.egg-info/zip-safe
